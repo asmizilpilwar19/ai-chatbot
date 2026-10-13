@@ -1,0 +1,193 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "description": "User is greeting the chatbot at the start of a conversation.",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hi there",
+        "yo",
+        "what's up"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What would you like to talk about?",
+        "Hey! Good to see you. What's on your mind?"
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "description": "User wants to end the conversation.",
+      "examples": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "i have to go",
+        "exit",
+        "quit",
+        "that's all for now"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Feel free to come back anytime.",
+        "Bye! It was nice chatting with you."
+      ]
+    },
+    {
+      "intent": "ask_name",
+      "description": "User asks for the chatbot's name or identity.",
+      "examples": [
+        "what is your name",
+        "who are you",
+        "what should i call you",
+        "do you have a name",
+        "tell me your name"
+      ],
+      "responses": [
+        "I'm an AI chatbot built for an internship project. You can just call me Chatbot!",
+        "I don't have a fancy name, but I'm your friendly AI assistant for this project."
+      ]
+    },
+    {
+      "intent": "ask_capabilities",
+      "description": "User asks what the chatbot is able to do.",
+      "examples": [
+        "what can you do",
+        "what are your capabilities",
+        "how can you help me",
+        "what can you help me with",
+        "what do you do"
+      ],
+      "responses": [
+        "I can chat with you, answer questions about AI and Python, remember your name, and hold a natural multi-turn conversation.",
+        "I can answer questions, remember context from earlier in our chat, and have a normal back-and-forth conversation with you."
+      ]
+    },
+    {
+      "intent": "ask_about_ai",
+      "description": "User asks a question about artificial intelligence in general.",
+      "examples": [
+        "what is ai",
+        "what is artificial intelligence",
+        "explain artificial intelligence",
+        "tell me about ai",
+        "how does ai work"
+      ],
+      "responses": [
+        "Artificial Intelligence is the field of building computer systems that can perform tasks normally requiring human intelligence, like understanding language or recognizing patterns.",
+        "AI refers to software that can learn from data or follow rules to make decisions, rather than being explicitly programmed step by step for every situation."
+      ]
+    },
+    {
+      "intent": "ask_about_python",
+      "description": "User asks a question about the Python programming language.",
+      "examples": [
+        "what is python",
+        "tell me about python",
+        "what can python be used for",
+        "what can i use python for",
+        "why use python"
+      ],
+      "responses": [
+        "Python is a beginner-friendly programming language known for its simple syntax. It's widely used for web development, automation, data science, and AI.",
+        "Python is popular because it's easy to read and has libraries for almost everything, from building websites to training AI models."
+      ]
+    },
+    {
+      "intent": "ask_about_chatbot",
+      "description": "User asks how chatbots in general (or this chatbot) work.",
+      "examples": [
+        "how do chatbots work",
+        "how does this chatbot work",
+        "explain how you work",
+        "what is a chatbot",
+        "how do you understand me"
+      ],
+      "responses": [
+        "Chatbots usually work by recognizing the intent behind a message, then generating or selecting an appropriate response. This one combines simple keyword-based intent recognition with the Gemini API for natural replies.",
+        "A chatbot like me looks for patterns in what you type to figure out what you mean, then uses that understanding to craft a helpful reply."
+      ]
+    },
+    {
+      "intent": "help",
+      "description": "User is asking for help or guidance.",
+      "examples": [
+        "help",
+        "i need help",
+        "can you help me",
+        "help me",
+        "i need assistance"
+      ],
+      "responses": [
+        "Sure, I'm here to help! You can ask me about AI, Python, or chatbots, or just have a casual conversation.",
+        "Of course! Tell me what you're trying to do and I'll do my best to help."
+      ]
+    },
+    {
+      "intent": "thanks",
+      "description": "User expresses gratitude.",
+      "examples": [
+        "thanks",
+        "thank you",
+        "thanks for helping",
+        "thank you so much",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "intent": "small_talk",
+      "description": "Casual, non-technical conversation.",
+      "examples": [
+        "how are you",
+        "how's it going",
+        "what's new",
+        "tell me something interesting",
+        "how is your day"
+      ],
+      "responses": [
+        "I'm doing well, thanks for asking! How about you?",
+        "I'm just here ready to chat. What's going on with you?"
+      ]
+    },
+    {
+      "intent": "tell_name",
+      "description": "User tells the chatbot their own name, which should be remembered.",
+      "examples": [
+        "my name is",
+        "i am",
+        "i'm",
+        "call me",
+        "you can call me"
+      ],
+      "responses": [
+        "Nice to meet you! I'll remember your name."
+      ]
+    },
+    {
+      "intent": "ask_my_name",
+      "description": "User asks the chatbot to recall the name they previously gave.",
+      "examples": [
+        "what is my name",
+        "what's my name",
+        "do you know my name",
+        "do you remember my name",
+        "say my name"
+      ],
+      "responses": [
+        "Let me check what you told me earlier."
+      ]
+    }
+  ]
+}
